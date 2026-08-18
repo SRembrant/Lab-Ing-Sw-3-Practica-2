@@ -1,0 +1,93 @@
+/* estilos por id */
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-left: 15px;
+}
+
+#title{
+    color: blueviolet;
+    display: flex;
+    flex-grow: 1;
+    font-family: 'Lucida Sans';
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer{
+    margin: 10px;
+    background-color: darkkhaki;
+    border: 2px solid rgb(241, 227, 39);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    gap: 4px;
+    border-radius: 20px;
+}
+
+#footer_title{
+    text-align: center;
+}
+
+/* estilos por clase */
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    gap: 15px;
+    justify-content: center; 
+}
+
+.button{
+    border-radius: 10px;
+    background-color: rgb(127, 163, 255);
+    text-align: center;
+    gap: 20px;
+    margin: 20px;
+    width: 130px;
+    height: 50px;
+    color: hsl(208, 100%, 97%);
+}
+
+/* estilos para las tarjetas de cada medico*/
+.tarjeta{
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.medico_centro{
+    background-color: aquamarine;
+    border: 2px solid aqua;
+    text-align: center;
+}
+
+.medico_derecha{
+    background-color: chartreuse;
+    border: 2px solid rgb(0, 255, 68);
+    text-align: right;
+}
+
+.medico_izquierda{
+    background-color: deeppink;
+    border: 2px solid #fb14ff;
+    text-align: left;
+}
+
+.tarjeta_medico_vs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* estilos por agrupación */
+h2, p, .tarjeta_medico_txt{
+    color: rgb(41, 0, 135);
+    margin: 20px;
+}
+
